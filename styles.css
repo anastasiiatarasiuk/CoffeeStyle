@@ -404,3 +404,52 @@ img {
 .img-section {
   margin-bottom: 100px;
 }
+
+.behind-section {
+  margin-bottom: 140px;
+}
+.behind-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.behind-section-title::after,
+.behind-section-title::before {
+  content: "";
+  border-bottom: 1px solid rgba(162, 95, 75, 0.2);
+  margin: 0 15px;
+  width: 30px;
+}
+.behind-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.behind-item {
+  width: 300px;
+}
+.behind-item-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.behind-item-subtitle {
+  font-size: 16px;
+  line-height: 175%;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 16px;
+}
+.behind-item-date {
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
