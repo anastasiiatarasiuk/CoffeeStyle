@@ -289,8 +289,6 @@ img {
   margin-bottom: 150px;
 }
 
-.product-item {
-}
 .product-item img {
   width: 100%; /* Робить зображення по ширині контейнера */
   height: auto; /* Зберігає пропорції зображення */
@@ -323,4 +321,82 @@ img {
   text-decoration: line-through;
   text-align: center;
   color: rgba(29, 31, 46, 0.4);
+}
+
+/* Offer section styles*/
+.offer-section {
+  margin-bottom: 130px;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.offer-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.offer-section-title::after,
+.offer-section-title::before {
+  content: "";
+  border-bottom: 1px solid rgba(162, 95, 75, 0.2);
+  margin: 0 15px;
+  width: 30px;
+}
+
+.offer-img-list {
+  display: flex;
+  gap: 20px;
+}
+
+.offer-item {
+  margin-bottom: 20px;
+}
+
+.offer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-text-container {
+  width: 400px;
+  padding-left: 60px;
+  padding-right: 47px;
+}
+.offer-subheading {
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.offer-title {
+  font-size: 36px;
+  line-height: 139%;
+  margin-bottom: 15px;
+}
+.offer-subtitle {
+  font-size: 16px;
+  line-height: 175%;
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 30px;
+}
+.offer-btn {
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #1d1f2e;
+  padding: 8px 24px;
 }
