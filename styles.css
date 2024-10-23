@@ -263,6 +263,7 @@ img {
 .products {
   margin: 0px 240px;
   padding: 0;
+  width: 960px;
 }
 
 .more-products-title {
